@@ -11,7 +11,6 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-
   background: hsl(212, 45%, 89%);
   font-family: "Outfit", sans-serif;
 }
@@ -37,39 +36,34 @@ img {
 }
 
 .card {
-  max-width: 300px;
-  margin: 0 auto;
+  max-width: 18.75em;
   display: flex;
   flex-direction: column;
   background: hsl(0, 0%, 100%);
-  padding: 20px;
-  border-radius: 10px;
-  gap: 20px;
-}
-
-.img {
-  max-width: 280px;
+  border-radius: 0.625em;
+  padding: 1em;
 }
 
 .text {
   text-align: center;
+  font-size: 0.93rem;
+  margin: 1.25em;
 }
 
 h1 {
-  font-size: 1.25em;
+  font-size: 1.25rem;
   font-weight: 700;
   color: hsl(218, 44%, 22%);
 }
 
 p {
-  font-size: 0.93em;
   font-weight: 400;
   color: hsl(220, 15%, 55%);
-  padding-top: 10px;
+  margin-top: 0.625em;
 }
 
 .attribution {
-  font-size: 0.68em;
+  font-size: 0.68rem;
   position: fixed;
   width: 100%;
   text-align: center;
